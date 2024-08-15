@@ -1,0 +1,29 @@
+@media(max-width:1200px) {
+  .header {
+    &__btn {
+      margin-right: auto;
+    }
+  }
+}
+
+@media(max-width:920px) {
+  .header {
+    &__inner {
+      justify-content: flex-end;
+    }
+
+    &__logo {
+      order: -1;
+      margin-right: auto;
+    }
+
+    &__menu {
+      order: -1;
+    }
+
+    &__btn {
+      margin-right: 0;
+      margin-left: 150px;
+    }
+  }
+}
